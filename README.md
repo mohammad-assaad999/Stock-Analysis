@@ -39,13 +39,14 @@ Analyzing a large data set should be always done on one of the coding programs l
 
   The advantages of the code will be discussed later, but, in brief, one of the most important advantage of the code refactoring is the execution time that's taken to present the code output. The main reason behing this conclusion is the ease in understanding and reading the code thourgh the system by using simplier codes and felxible ways to analyze. 
 
-## Pros and Cons of Refactoring the Script
-### Advantages of Refactoring the Script
+## Pros and Cons of Refactoring a Script and Refactoring the Original VBA Script
+### Pros and Cons of Refactoring a Script
+#### Pros of Refactoring the Script
    - Code refactoring makes the code more extendible to a wider range of data (In our example, we are now able to do analysis to more than 12 stocks)
    - Code refactoring makes the code easier to understand and read and less complex to maintain because of the well organized set of new variables and loops
    - Code refactoring makes the code faster to be executed as we see in the timer in the images above
-### Disadvantages of Refactoring the Script
+#### Cons of Refactoring the Script
    - Code refactoring takes too much time to be well edited and updated to a newer version since the flow of code shouldn't be changed
    - Code refactoring may lead to increase the chances of mistakes since most of the code is updated and edited  
-
-  In general, refactoring the original script has given the opportunity for the code user to use the same code for a much bigger number of variables (stocks) in a shorter period of time as we see in the above images. In addition, we are able now to use the code in other places without changing the whole code. We can just change the variable names and output to be able to apply other analysis. Finally, the time which was spent on refactoring the code is spent only once, so we don't need too much time to change the code to create other projects and analysis. 
+### Advantages and Disadvantages of Refactoring the Original VBA Script
+  In general, refactoring the original script has given the opportunity for the code user to use the same code for a much bigger number of variables (stocks) in a shorter period of time as we see in the above images. In addition, we are able now to use the code in other places without changing the whole code. We can just change the variable names, numbers, and output to be able to apply other analysis. Finally, the time which was spent on refactoring the code is spent only once, so we don't need too much time to change the code to create other projects and analysis. 

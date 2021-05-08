@@ -39,7 +39,7 @@ Analyzing a large data set should be always done on one of the coding programs l
 
   The advantages of the code will be discussed later, but, in brief, one of the most important advantage of the code refactoring is the execution time that's taken to present the code output. The main reason behing this conclusion is the ease in understanding and reading the code thourgh the system by using simplier codes and felxible ways to analyze. 
 
-## Pros and Cons of Refactoring a Script and Refactoring the Original VBA Script
+## Pros and Cons of Refactoring a Script and the Original VBA Script
 ### Pros and Cons of Refactoring a Script
 #### Pros of Refactoring the Script
    - Code refactoring makes the code more extendible to a wider range of data (In our example, we are now able to do analysis to more than 12 stocks)

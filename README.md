@@ -6,6 +6,21 @@ Analyzing a large data set should be always done on one of the coding programs l
 ## Results
 ### Explanation of the Refactored Code and the Original Scripts
   Using the original script of the code, we've made some changes to make our work more efficient and to improve the logic of the code to make it easier for future users to read. We've started by defining the variables, adding an input box to specify the year, and start the timer of the code. Next we have added headers for the output data to be understandable and readable and created arrays for the ticker, daily stock volume, the starting price, and the ending price. The last three arrays were not available in the original script since we were expecting to use only these 12 stocks. The most important part here is the loops and nested loops that are used to go over each row of data and each stock to extract the convenient total volume, the starting price, and ending price in order to determine the return and start our analysis. Finally, we have formatted the output with the suitable colors and number formats to create a nice visualization of data. For each loop in each stock, we were starting the total volume by zero and ending it with a bigger number due to the sophisticated looping formula that adds the total volume of a ticker to the next total volume of the same ticker. 
+   For example:
+  In the original script, we have only used the StartingPrice and the EndingPrice variables without creating them as arrays:
+      Dim StartingPrice As Double
+      Dim EndingPrice As Double
+    Regarding the total volume formula, it looked like the following by taking into consideration that the total volume is equal to zero:
+      totalvolume = totalvolume + Cells(j, 8).Value
+  However, in the refactored script, we've created a new variable (TickerIndex) to be used as an index in the three arrays (TickerVolume, EndingPrice, and StartingPrice):
+      Dim tickerIndex As Integer
+        tickerIndex = 0
+      Dim tickerVolume(12) As Long
+      Dim tickerStartingPrices(12) As Single
+      Dim tickerEndingPrices(12) As Single
+    Here is how the tickervolume formula looks like in the refactored code:
+      tickerVolume(tickerIndex) = tickerVolume(tickerIndex) + Cells(i, 8).Value
+        
 ### Results Based on the Code Output
   After finishing the code and creating the buttons to activate it by one click, we can see that the most two attractive stocks in terms of their high total daily volume which is explained as high liquid stocks and their high and positive return are ENPH and RUN stocks as we see in the following image. 
 

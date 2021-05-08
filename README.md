@@ -17,7 +17,7 @@ Analyzing a large data set should be always done on one of the coding programs l
 
   Although they have similar returns in 2018, the only stock that increased was RUN. We can recommend Tom's parents to invest in RUN's stock since it's a very liquid stock with a very high increase in return when all the other stock were decreasing. However, we an also advise them to diversify their portfolio and invest part of their fund in ENPH. I always recommend to diversify in more than once stock especially when we have another opportunity to invest in a good stock like ENPH, but it's also the decision of the investor. 
 ### Comparing the Time Execution Between the Original and Refactored Scripts
-  As we see in the images above, the time that's taken to execute the refactored code is less than 0.3 seconds in 2017 and 2018. However, if we do the same analysis on the original script, we see that the time increases to more than 0.9 seconds as we see in the following two images below about the original scripts in 2017 and 2018. 
+  As we see in the images above, the time that's taken to execute the refactored code is less than 0.2 seconds in 2017 and 2018. However, if we do the same analysis on the original script, we see that the time increases to more than 0.9 seconds as we see in the following two images below about the original scripts in 2017 and 2018. 
 
 ![VBA_Original_2017](https://user-images.githubusercontent.com/80184581/117553309-d2f96800-b01e-11eb-9f10-a5f0e9eab5f9.PNG)
 
